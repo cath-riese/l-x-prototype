@@ -9,10 +9,11 @@ As you installed, l-x-prototype can be used for
 
 ```
 import lxproty as lx
+import discord
 
-lx.encode("file.txt", "utf-8")
+file = lx.encode("file.txt", "utf-8")
 
-try:
- lx.
+@lx.model
+lx.classification(file, lang="EN") # Alternative language included ID, MY and JP
 
 ```
